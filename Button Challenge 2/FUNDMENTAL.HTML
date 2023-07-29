@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <link rel="stylesheet" type="text/css" href="templete.css">
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: emoji;
+}
+
+/* ---color pro---*/
+.color{
+    display:inline-block;
+   
+
+}
+
+.color li{
+    display:inline-block;
+    margin-left:20px;
+}
+ #a{
+    background-color:yellow;
+    color:yellow;
+    border-radius:50px;
+}
+#b{
+    background-color:gold;
+    color:gold;
+    border-radius:50px;
+}
+#c{
+    background-color:#f9ca24;
+    color:#f9ca24;
+    border-radius:50px;
+}
+#d{
+    background-color:#f2f2f2;
+    color:#f2f2f2;
+    border-radius:50px;
+}
+#e{
+    background-color:#EA2027;
+    color:#EA2027;
+    border-radius:50px;
+}
+.section{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.section h2.section-head{
+    color:#000;
+    text-align:center;
+    margin-bottom:40px;
+}
+.section h2.section-head::after{
+    background-color:#c0392b;
+    content:'';
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+#header{
+    background-color:#e74c3c;
+    color:#fff;
+}
+#logo{
+    font-size:2rem;
+}
+#menu{
+    float:1;
+    width:100%;
+    text-align:right;
+   
+}
+#menu li{
+    display:inline-block;
+    list-style:none;
+    padding:10px;
+}
+#menu li a{
+    text-decoration:none;
+    color:white;
+    padding:15px 10px;
+}
+#menu li a:hover{
+    background-color:#c0392b;
+}
+#banner{
+    background:url(images/banner-2.jpg)no-repeat 0 0;
+    background-size:cover;
+    height:100%;
+    
+}
+.banner-title{
+    padding-top:2rem;
+}
+.title{
+  
+    padding:10px;
+    margin:0;
+    padding-left:55px;
+    color:white;
+}
+.banner-title p.lead{
+    color:white;
+    padding:10px;
+}
+.section-head{
+    text-align:center;
+}
+.service-box i{
+    text-align:center;
+}
+.service-box i.fa{
+    color:#c0392b;
+    font-size:70px;
+    margin-bottom:15px;
+    margin-left:80px;
+}
+.section-head  h3{
+    text-align:center;
+    color:#ED4C67;
+}
+.testimonials {
+    background:url(images/testimonials.jpg) no-repeat 0 0;
+    color:white;
+    background-size:cover;
+    padding:50px 0;
+    position: relative;
+    
+    
+}
+.testimonials h2.section-head{
+    color:white;
+}
+.testimonials img{
+    clip-path: circle(50%);
+    border:1px solid red;
+    border-radius:50%;
+}
+.Project-link{
+    margin:10px 20px;
+    font-size:42px;
+
+}
+.Project-link a{
+    text-decoration:none;
+    color:#555;
+    text-align:center;
+    cursor: pointer;
+
+}
+.Project-link a::after{
+    
+}
+.footer{
+    background-color:black;
+}
+.footer h3{
+    color:white;
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+}
+.footer li{
+    text-align:center;
+    list-style:none;
+
+}
+.footer li a{
+    text-decoration:none;
+    color:#C4E538;
+}
+.footer i{
+    color:green;
+    font-size:30px;
+    padding:10px;
+    color:white;
+    background-color:red;
+    border-radius:50px;
+    margin-top:10px;   
+    margin-bottom:10px;
+}
+/* ------- foundmetal ---*/
+.text{
+    padding:40px;
+
+}
+.text h4{
+    text-align:center;
+}
+.text li{
+    list-style:none;
+    color:blue;
+    font-size:20px;
+}
+.other-computer-example {
+    display:flex;
+    overflow:scroll;
+    margin-left:10PX;
+}
+
+.other-computer-example::-webkit-scrollbar{
+    display:none;
+}
+.other-computer-example p{
+    padding:20px;
+    color:red;
+
+}
+table{
+    border:1px solid red;
+}
+th,td,tr{
+    border:1px solid red;
+    padding:10px;
+    background-color:blue;
+    color:white;
+}
+
+/* ----End --------*/
+
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+    <div class="container">
+        <div class="row">
+         <div class="col-md-4">
+            <div #="logo">
+                <h1><img src="images/logo.png" width="120px"></h1>
+            </div>
+         </div>
+         <div class="col-md-8">
+            <ul id="menu" class="">
+                <li><a href="C:\Users\lenovo\Desktop\Programming Project\Boostripe Basics\index.html" target="_blank">Home</a></li>
+                <li><a href="">About</a>
+                
+                </li>
+             
+            </ul>
+         </div>
+        </div>
+    </div>
+</div>
+<div id="banner" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-6">
+                <div class="banner-title ">
+                    <h1 class="title">FUNDAMENTAL<BR>System <br><br>
+                        <br><br></h1>
+                    <p class="lead"><br></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="color">
+    <div>
+        <li onclick="bgChange(id)" id="a">yellow</li>
+        <li onclick="bgChange(id)" id="b">gold</li>
+        <li onclick="bgChange(id)" id="c">#f9ca24</li>
+        <li onclick="bgChange(id)" id="d">#f2f2f2</li>
+        <li onclick="bgChange(id)" id="e">red</li>
+
+    </div>
+   <script>
+     const bgChange =(id) =>{
+        document.body.style.background = document.getElementById(id).innerHTML;
+     }
+   </script>
+</div>
+
+<!---conent write-->
+<div class="conent-text section">
+    <div class="container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <h2 class="section-head">
+                FUNDAMENTAL
+            </h2>
+        </div>
+        <div class="text">
+            <div class="col-md-12">
+            <h4>(ADCA) Advanced Diploman in Computer Application</h4>
+            <ul>
+                <li>1.) C- Common (सामान्य)</li>
+                <li>2.) O- Operating (संचालन )</li>
+                <li>1.) M- Machine (यंत्र )</li>
+                <li>1.) P- Particularly (मुख्य रूप  से )</li>
+                <li>1.) U- Used for (इस्तेमाल करना )</li>
+                <li>1.) T-Trade  (व्यापार )</li>
+                <li>1.) E- Education & (शिक्षा  और )</li>
+                <li>1.) R - Research (खोज )</li>
+                
+            </ul>
+            <h2>Q. What is Computer ? कंप्यूटर क्या है </h2>
+            <p>Any-  electronic device which is smart and follows our instruction is called computer. </p>
+            <p>वैसा विद्युतीय यंत्र जो चलाक है और हमारे  निर्देशों का अनुसार करता है , कंम्प्यूटर   कहलाता है</p>
+            <h2>Some example of computer कंप्यूटर के कुछ उदाहरण</h2>
+            <p>Desktop, Mobile Phones, Digital camera, Latop , ETC</p>
+            <p>डेस्कटॉप, मोबाइल फोन, डिजिटल कैमरा, लैटॉप, आदि</p>
+            <div class="other-computer-example">
+                <div class="col-md-3">
+                    <img src="Images/Desktop.gif" width="120px">
+                    <p>Desktop</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="Images/mobile.png" width="120px">
+                <p>Mobile Phones</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="Images/Digital.gif" width="120px">
+                    <p>Digital camera</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/laptop-typer.gif" width="120px">
+                    <p>Laptop</p>
+                </div>
+                
+               
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <h2>Q. What are the Types of Computer ?  कंप्यूटर कितने प्रकार के होते हैं?</h2>
+     <p>Ans.  Ther are three type of computer :- कम्प्यूटर तीन प्रकार के होते हैं :-</p>
+     <h2>1.Digital Computer (डिजिटल कम्प्यूटर :):</h2>
+     <p>The Computer Which have display are known as Digital Computer. </p>
+     <p>जिस कंप्यूटर में डिस्प्ले होता है उसे डिजिटल कंप्यूटर कहा जाता है।</p>
+     <p>Example:- . Desktop, Laptop, Paltomp, Tab, Mobile phone, Digital Camera, Calculator--etc.</p>
+     <P>उदाहरण:- । डेस्कटॉप, लैपटॉप, पामटॉप, टैबलेट, मोबाइल फोन, डिजिटल कैमरा, कैलकुलेटर--आदि।</P>
+     <div class="other-computer-example">
+        <div class="col-md-3">
+            <img src="Images/Desktop.gif" width="120px">
+            <p>Desktop</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/mobile.png" width="120px">
+        <p>Mobile Phones</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/Digital.gif" width="120px">
+            <p>Digital camera</p>
+        </div>
+        <div class="col-md-3">
+            <img src="images/laptop-typer.gif" width="120px">
+            <p>Laptop</p>
+        </div>
+
+<!---End -->
+<div class="other-computer-example">
+    <div class="col-md-3">
+        <img src="Images/Palmtop.png" width="120px">
+        <p>Desktop</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/Tab.png" width="120px">
+    <p>Mobile Phones</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/Digital.gif" width="120px">
+        <p>Digital camera</p>
+    </div>
+    <div class="col-md-3">
+        <img src="images/calculator.jpg" width="120px">
+        <p>Laptop</p>
+    </div>
+</div>
+</div>
+
+<h2>2. Analog Computer : (एनालॉग कंप्यूटर)</h2>
+<p>The Analog  which don't have display are known as Analog computer </p>
+<p>जिन एनालॉग में डिस्प्ले नहीं होता है उन्हें एनालॉग कंप्यूटर कहा जाता है</p>
+<p>Ex. Moile Phone networks towwer RADAR ( Radio Detection and Ranging Setup box, Radio box, Radio singals , Satellite </p>
+<p>उदाहरण:- । मोबाइल फोन नेटवर्क टॉवर राडार (रेडियो डिटेक्शन और रेंजिंग सेटअप बॉक्स, रेडियो बॉक्स, रेडियो सिंगल, सैटेलाइट</p>
+
+<div class="other-computer-example">
+    <div class="col-md-3">
+        <img src="Images/Mobile phones topwe.webp" width="120px">
+        <p>Mobile Phones Tower</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/radar.jpg" width="120px">
+    <p>RADAR</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/satellite.jfif" width="120px">
+        <p>Satellite</p>
+    </div>
+    <div class="col-md-3">
+        <img src="images/satellite.jfif" width="120px">
+        <p>Laptop</p>
+    </div>
+    </div>
+    <h2>3. Hybrid Computer (हाइब्रिड कंप्यूटर :) :</h2>
+<p> The Analog Setup which are controlled through Digital seftup are knwon as Hybrid Computer.</p>
+<p>एनालॉग सेटअप जो डिजिटल सेटअप के माध्यम से नियंत्रित होते हैं, हाइब्रिड कंप्यूटर के रूप में जाने जाते हैं।</p>
+
+<div class="other-computer-example">
+    <div class="col-md-3">
+        <img src="Images/Industrial computer.jpg" width="150px">
+        <p>Mobile Phones Tower</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/Atm.jfif" width="150px">
+    <p>RADAR</p>
+    </div>
+    <div class="col-md-3">
+        <img src="Images/super computer.jpg" width="150px">
+        <p>Satellite</p>
+
+    </div>
+    </div>
+    <h2>Personal computer : (निजी कंप्यूटर)</h2>
+    <p> A compute designed for use by one person at a time</p>
+    <p>एक समय में एक व्यक्ति द्वारा उपयोग के लिए डिज़ाइन किया गया एक कंप्यूट</p>
+    <p>Example : - Laptop , Desktop, Palmtop , Tab --etc</p>
+    <p>उदाहरण: - लैपटॉप, डेस्कटॉप, पामटॉप, टैब --आदि</p>
+    
+    <div class="other-computer-example">
+        <div class="col-md-3">
+            <img src="Images/Desktop.gif" width="150px">
+            <p>Laptop</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/laptop-typer.gif" width="150px">
+        <p>Desktop</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/Palmtop.png" width="150px">
+            <p>Palmtop</p>
+        </div>
+        
+        </div>
+      
+         <h2>DESKTOP : (निजी कंप्यूटर)</h2>
+    <p> A Computer suitable for use at an ordinary desk</p>
+    <p></p>
+    <p style="color:red;">Parts of Desktop</p>
+    <p>1st- Monitor</p>
+    <p>2nd- CPU</p>
+    <p>3rd- Mouse</p>
+    <p>4th- Mouse</p>
+    <p>5th- KeyBoard</p>
+    <p>6th- UPS</p>
+    <img src="Images/Desktop.gif" width="150px">
+    <p>Desktop</p>
+    <h2>MOUSE :  (माउस )</h2>
+    <P>Mouse is a device used to operate pointer</P>
+    <p>माउस एक उपकरण है जिसका उपयोग पॉइंटर को संचालित करने के लिए किया जाता है</p>
+    <p style="color:red;">Type os Mouse : माउस के प्रकार </p>
+    <p>1st Normal Mouse (सामान्य माउस) </p>
+    <img src="images/normal mouse.jfif" width="120px">
+  
+    <p>2nd Wireless Mouse ( वायरलेस  माउस )</p>
+    <img src="images/Wireless mosue.jfif" width="120px">
+    <img src="" width="120px">
+    <img src="" width="120px">
+    <h2><u>Mouse Buttons (माउस बटन) </u></h2>
+    <p>1st Left Click (To open any file) लेफ्ट क्लिक (किसी भी फाइल को खोलने के लिए) - </p>
+    <p>2nd Right Click (To open the option) राइट क्लिक (विकल्प खोलने के लिए)</p>
+    <p>Like : Open, Delete, Rename , Properties खोलें, हटाएं, नाम बदलें, गुण</p>
+    <p style="color:red">3rd Scroll स्क्रॉल </p>
+    <p>(i. Zoom in &  Zoom Out फोटो को छोटा और बड़ा करने हेतु</p>
+    <p>(ii. Page up & Page down पेज अप और पेज डाउन </p>
+    <p>(iii. Icon size small & Large आइकन का आकार छोटा और बड़ा</p>
+    <p>(iv. Increse & Decrease Volume. वृद्धि और कमी की मात्रा</p>
+    <h2 style="text-align:center;"><u>MONITOR (मॉनिटर )</u></h2>
+    <P style="text-align:center;"><img src="" width="100px"></P>
+    <p>Mointor is the displaying unit of our PC. </p>
+    <p><u><li>Type of Monitor </li></u></p>
+    <p>1. CRT (Cathode Ray Tube) (कैथोड रे ट्यूब) </p>
+    <p>2. LCD ( Liquid Crystal Dispiay€) लिक्विड क्रिस्टल डिस्प्ले</p>
+    <p>3. LED ( Light - Emitting Diodes) प्रकाश उत्सर्जक डायोड</p>
+    <div class="other-computer-example">
+        <div class="col-md-3">
+            <img src="Images/CRT.jfif" width="150px">
+            <p>CRT</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/LCD.jpg" width="150px">
+        <p>LCD</p>
+        </div>
+        <div class="col-md-3">
+            <img src="Images/LED.jfif" width="150px">
+            <p>LED</p>
+            </div>
+            </div>
+        <p>Monitor contains two types of wire.  </p>
+        <p>1st- Power Cuble (Supple Electricity to Monitor)* </p>
+        <p>2nd- VGA Cabe :(Video Graphics Array) Takes information form CPU and Supply it to Monitor . </p>
+        <p>वीजीए केबल: (वीडियो ग्राफिक्स ऐरे) सीपीयू से जानकारी लेता है और मॉनिटर को आपूर्ति करता है</p>
+        <p><img src="Images/VGA.jfif" width="120px"></p>
+        <p>3rd - (HDMI) - High Definition Mutimedia Interface.</p>
+        <p style="text-align:center;"><img src="Images/HDMI.jfif" width="120px"></p>
+        <p>U.P.S - (uninterruptible power supply) :</p>
+
+       <p>It is devvice that allows your computer to keep running for at least a short time when the primary power source is lost. It also provides protection from power surges. </p>
+       <p>यह वह उपकरण है जो आपके कंप्यूटर को कम से कम थोड़े समय के लिए चालू रखने की अनुमति देता है जब प्राथमिक शक्ति स्रोत खो जाता है। यह पावर सर्जेस से भी सुरक्षा प्रदान करता है।</p>
+        <br>
+        <h2 style="text-align:center;">R.A.M</h2>
+        <p style="text-align:center;">(Random Access Memory)</p>
+        <br>
+        <p style="text-align:center;">(रैंडम एक्सेस मेमोरी)</p>
+        <p style="text-align:center; margin:auto;"><img src="images/RAm.webp" width="120px"></p>
+        <p>It is the temporary memory of the comptuer . </p>
+        <p>यह कंप्यूटर की अस्थाई मेमोरी होती है</p>
+        <h2 style="text-align:center; border:1PX solid RED;" class="bg-danger p-3 text-light">HARD Disk</h2>
+        <P>Rigidnon -removable magnetic disk with a large data storage capacity.</P>
+        <p>एक बारी डेटा संरक्षण क्षमता के साथ कठोर गैर हटाने चुंबकीय  डिस्क </p>
+        <h2 style="text-align:center; border:1PX solid RED;" class="bg-danger p-3 text-light">D.V.D DRIVERS : -डी.वी.डी ड्राइवर </h2>
+        <p style="text-align:center; margin:auto;"><img src="images/D.V.D.jpg" width="120px"></p>
+        <P>An optical drive that reads and writes all C.D and D.V.D DVD stands for Digital Video Disk.</P>
+        <p>एक ऑप्टिकल ड्राइव जो सभी सीडी और डीवीडी डीवीडी को पढ़ता और लिखता है, डिजिटल वीडियो डिस्क के लिए खड़ा है</p>
+        <p style="text-align: center; margin:auto;">
+        <table border="1" style="margin:auto;" >
+            <tr style="border:1px solid red">
+                <th >CD</th> <br>
+                <th>Compact Disc</th>
+                <th>700MB</th>
+
+            </tr>
+            <tr>
+                <td>DVD</td><br>
+                <td>Digital Video Disc</td>
+                <td>4.7 GB</td>
+            </tr>
+            <tr>
+                <td>BRD</td>
+                <td>Blue Ray Disc</td>
+                <td>25GB</td>
+            </tr>
+        </table>
+        </p>
+        <hr>
+        <h2 style="text-align:center;">MOTHER BOARD:</h2>
+        <P style="text-align: center;">मदर बोर्ड</P>
+        <p style="text-align:center; margin:auto;"><img src="images/MOTHER BORAD.jfif" width="120px"></p>
+        <p>A motherboard is the main printed circuit board (P.C.B) found in computers.</p>
+        <p>एक मदरबोर्ड कंप्यूटर में पाया जाने वाला मुख्य मुद्रित सर्किट बोर्ड (P.C.B) है</p>
+        <h2 style="text-align:center;">S.M.P.S:</h2>
+        <p><img src="images/SMPS.jfif" width="120px"></p>
+        <p>(SwitchModePowerSupply)</p>
+
+        <P>Main functions of SMPS ARE :- SMPS के मुख्य कार्य हैं</P>
+        <P>I. Converts A.C. to D.C</P>
+        <p>A.C. को D.C में परिवर्तित करता है</p>
+        <p>II. Different wire contains different place.</p>
+        <p>अलग-अलग तार में अलग-अलग जगह होती है</p>
+        <p>III. Different swith supply power to Different places.</p>
+        <p>अलग-अलग स्विथ अलग-अलग जगहों पर बिजली सप्लाई करते हैं</p>
+        <h2 class="bg-danger text-light p-3">R.O.M (Read Only Memory)</h2>
+        <p><img src="images/ROM.jfif" width="220px"></p>
+        <p>We can't change any information from ROM.</p>
+        <p>रोम से हम कोई सूचना नहीं बदल सकते।</p>
+        <p>Ex. When we On Our mobile phone it shows the name of Company. (Samsung, Nokia, Airtel --etc.</p>
+        <p>जब हम अपने मोबाइल फोन पर होते हैं तो यह कंपनी का नाम दिखाता है। (सैमसंग, नोकिया, एयरटेल --आदि)</p>
+        <h2 class="bg-danger text-light p-3">C.P.U ( Center Processing Unit) </h2>
+        <p>Commonly called processor.</p>
+        <p>आमतौर पर प्रोसेसर कहा जाता है</p>
+        <p>It is the brain of the comptuer were most calculations take place.</p>
+        <p>यह कंप्यूटर का दिमाग है जहां ज्यादातर गणनाएं होती हैं</p>
+        <p>Some of CPU are - Dual Core, Core 2 Duo, i3 i5, i7 </p>
+        
+        <div class="other-computer-example">
+            <div class="col-md-3">
+                <img src="Images/dual.jfif" width="150px">
+                <p>Dual Core</p>
+            </div>
+            <div class="col-md-3">
+                <img src="Images/DUAL CORE.jfif" width="150px">
+            <p>Core 2 Duo </p>
+            </div>
+            <div class="col-md-3">
+                <img src="Images/i3 i5 i7.jfif" width="150px">
+                <p>i3, i5, i7</p>
+            </div>
+            <div class="col-md-3">
+                <img src="Images/U.S.B.jfif" width="150px">
+                
+            </div>
+        </div>
+        <p>U.S.B  = Universalserial Bus (Used to connect hardware. <br> PS2  personal system 2  </p>
+                <p style="color:red; font-size:20px;">PS2 - Personal system 2</p>
+                <p> <img src="images/Personal.jfif" width="150PX"></p>
+                <h3>Used to connect Mouse & Keyboard</h3>
+                <p>PS2 - पर्सनल सिस्टम 2</p>
+                <p>इसका उपयोग माउस और कीबोर्ड को जोड़ने में किया जाता है</p>
+                <h2 class="text-center ">HARDWAAR:</h2>
+                <p>Computer hardware is the collection of physical part of a computer system . This includes the computer case, monitor, keyboard and mouse. IT also includes all the parts inside te 
+                    the computer case, such as the hard disk drive, motherboard , video card, and many others. Computer hardware is what you can physically touch. 
+                </p>
+                <p>
+                    कंप्यूटर हार्डवेयर कंप्यूटर सिस्टम के भौतिक भाग का संग्रह है। इसमें कंप्यूटर केस, मॉनिटर, कीबोर्ड और माउस शामिल हैं। इसमें ते के अंदर के सभी हिस्से भी शामिल हैं
+                     कंप्यूटर केस, जैसे हार्ड डिस्क ड्राइव, मदरबोर्ड, वीडियो कार्ड, और कई अन्य। कंप्यूटर हार्डवेयर वह है जिसे आप भौतिक रूप से छू सकते हैं।
+                </p>
+                <h2 class="text-center ">INPUT DEVICE:</h2>
+                <P>It allows you to enter information into CPU. The most foundamental pieces of information are keystrokes on a keyboard and clicks with a mouse .
+                    These two input devices are essential for you to interact with your computer. Many other input devices exist for entering other types of information. such as iamges by Scanner. audio by mic and video by camera. 
+                </P>
+                <p>यह आपको सीपीयू में जानकारी दर्ज करने की अनुमति देता है। जानकारी के सबसे मौलिक टुकड़े कीबोर्ड पर कीस्ट्रोक्स और माउस के साथ क्लिक होते हैं। आपके कंप्यूटर के साथ इंटरैक्ट करने के लिए ये दो इनपुट डिवाइस आवश्यक हैं। अन्य प्रकार की सूचनाओं को दर्ज करने के लिए कई अन्य इनपुट डिवाइस मौजूद हैं। जैसे स्कैनर द्वारा iamges। माइक द्वारा ऑडियो और कैमरे द्वारा वीडियो।</p>
+                <div class="other-computer-example">
+                    <div class="col-md-3">
+                        <img src="Images/keyboard.jfif" width="150px">
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/Mike.jfif" width="150px">
+                    
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/camra.jfif" width="150px">
+                       
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/normal mouse.jfif" width="150px">
+                        
+                    </div>
+                </div>
+                <br>
+                <h2 class="text-center ">OUTPUT DEVICE:</h2>
+                <P>It is used to send data from a computer to user.</P>
+                <p>इसका उपयोग कंप्यूटर से उपयोगकर्ता को डेटा भेजने के लिए किया जाता है।</p>
+                <p>1. Audio from Speaker , Headphone, EarPhone, Home Theatre, Dj</p>
+                <p>स्पीकर, हेडफोन, ईयरफोन, होम थिएटर, डीजे से ऑडियो</p>
+                <p>2. Video and imiages from Monitor or Projector,</p>
+                <p>मॉनिटर या प्रोजेक्टर से वीडियो और छवियां</p>
+                <p>3. Text Document and images from printer.</p>
+                <p>टेक्स्ट दस्तावेज़ और प्रिंटर से छवियां</p>
+                <div class="other-computer-example">
+                    <div class="col-md-3">
+                        <img src="Images/print.jfif" width="150px">
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/erphone.png" width="150px">
+                    
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/spker.jfif" width="150px">
+                       
+                    </div>
+                    <div class="col-md-3">
+                        <img src="Images/Desktop.gif" width="150px">
+                        
+                    </div>
+                </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-head">
+                ADCA 
+            </h2>
+        </div>
+        <!---section-1-->
+        <div class="col-md-4">
+        <div class="service-box">
+           <i><img src="images/fundment.png" width="120px"></i>
+            <h3>FUNDAMENTAL</h3>
+            <p> 1.) Motivation Class ? 2.) What is Computer and Types of Computer - Digital, Analog & Hybrid 3.) Personl Computer Parts of Desktop - Monitor, Mouse , U.P.S 
+                4.) RAM , Hard Disk , DVD Drive , S.M.P.S, Processor, MotherBoard , ROM  5.) CPU . Confiuration ? 6.) Software- system / Application, Micrsoft ? 
+                7.) Hardware -Input devices / output devices, IBM 8.) Multimedia ? 9.) Classification of Computer - Super Computer Mainframe Computer , Mini Computer , Micro Computer 10.) Controls of keyboard buttons
+
+            </p>
+            </div>
+        </div>
+        <!---section-1-end --->
+          <!---section-1-->
+          <div class="col-md-4">
+            <div class="service-box">
+                <i><img src="images/fundment.png" width="120px"></i>
+                <h3> OPERATING SYSTEM <BR> (Windows 8 / Windows 10</h3>
+                <p>   1.) Start , Shutdown, Restart , Hibernate, Lock, Sleep <br>2.) Controls of Power Button LED Screen <br> 3.) Start Menu, My Computer , User File, Recycle Bin <br>
+                    4.) Recuvan - Restore file even after formating the Device. <br>5.) Folder - Create, Rename, Delete, Open No name Folder, Change icon and symbols. <br>6.) Folder Lock ? 7.) Note Pad & Typing Master , <br> 
+                    8.) M.S. Paint <br>
+                    9.) View Sort by, Refresh, Screen resolution, Personalize. <br>
+                    10.) Search in  Folder, Hard Disk, Start Menu, PartScer button. <br>
+                    11.) Text Password , Picture Password
+    
+                </p>
+                </div>
+            </div>
+            <!---section-1-end --->
+              <!---section-1-->
+        <div class="col-md-4">
+            <div class="service-box">
+                <i><img src="images/office-header-removebg-preview.png" width="140px"></i>
+                <h3>MICROSFOT OFFICE</h3>
+                <p><li>Ms-Word</li>
+                    <li>Ms-PowerPoint</li>
+                    <li>Ms-Excel</li>
+                    <li>Ms-One Note</li>
+                    <li>MS- One Note </li>
+                    <li>MS- Access </li>
+                    <li>MS - Outlook </li>
+    
+                </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i><img src="images/internet-lekh-removebg-preview.png" width="140px"></i>
+                    <h3>INTERNET</h3>
+                    <p><li> Basic and Advance of Internet</li>
+                        <li>Mobile App</li>
+                    </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <i><img src="images/Tally-removebg-preview.png" width="140px"></i>
+                        <h3>TALLY</h3>
+                        <p><li> Tally 9.0 ERP with GST</li>
+                            <li>Manual Accouting</li>
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-box">
+                            <i><img src="images/fingers.gif" width="140px"></i>
+                            <h3>TYPING</h3>
+                            <p><li> Full Typing Course in Hindi </li>
+                                <li>Fully Typing Course in English</li>
+                            </p>
+                            </div>
+                        </div>
+            <!---section-1-end --->
+    </div>
+</div>
+<div class="Project-link section">
+    <div class="container">
+        <h2 class="section-head">
+            ADCA (LINK)<img src="images/new.gif" width="40px">
+        </h2>
+        <div class="row">
+            <h3></h3>
+            <div class="col-md-4">
+            <h4><a href="#">FUNDAMENTAL <img src="images/new.gif" width="40px"></a></h4>
+            <img src="images/fundment.png" width="120px">
+        </div>
+        <div class="col-md-4">
+            <h4><a href="#">OPERATING SYSTEM</a></h4>
+            <img src="images/fundment.png" width="120px">
+        </div>
+        <div class="col-md-4">
+            <h4><a href="#">MICROSFOT OFFICE</a></h4>
+            <i><img src="images/office-header-removebg-preview.png" width="140px"></i>
+            
+        </div>
+        <div class="col-md-4">
+            <h4><a href="#">INTERNET</a></h4>
+            <img src="images/internet-lekh-removebg-preview.png" width="120px">
+        </div>
+        <div class="col-md-4">
+            <h4><a href="#">TALLY</a></h4>
+            <img src="images/Tally-removebg-preview.png" width="120px">
+        </div>
+        <div class="col-md-4">
+            <h4><a href="#">TYPING</a></h4>
+            <img src="images/fingers.gif" width="120px">
+        </div>
+    </div>
+    </div>
+</div>
+<!--testimonials--->
+<div class="testimonials section">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-head">
+                Introduction
+            </h2>
+        </div>
+        <div class="col-md-6">
+            <div class="testimonial">
+            <p>Bill Gates is a technologist, business leader, and philanthropist. He grew up in Seattle, Washington, with an amazing and supportive family who encouraged his interest in computers at an early age. He dropped out of college to start Microsoft with his childhood friend Paul Allen.</p>
+            <img src="Images/Bill Gets.jfif" width="120px">
+            <div class="author">
+                Bill Geltes
+            </div>
+            <div class="auther-company">
+                Micrsoft
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+            <p>बिल गेट्स माइक्रोसॉफ्ट नामक कंपनी के सह संस्थापक और अध्यक्ष हैं। उनका जन्म 28 अक्टूबर, 1955 को वाशिंगटन के एक उच्च-मध्यम वर्गीय परिवार में हुआ। इनके पिता का नाम विलियम एच. गेट्स और माता का नाम मैरी मैक्सवेल था। पिता एक प्रतिष्ठित वकील और माता एक बैंक के प्रशासनिक मंडल के सदस्य थे</p>
+            <img src="Images/Bill Gets.jfif" width="120px">
+            <div class="author">
+                Gentel man
+            </div>
+            <div class="auther-company">
+                Micrsoft
+           
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Address</h3>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+            </div>
+            <div class="col-md-3">
+                <h3>Computer Course</h3>
+                <li><a href="#">ADCA</a></li>
+                <li><a href="#">DCA</a></li>
+                <li><a href="#">TALLY</a></li>
+                <li><a href="#">TYPING</a></li>
+                <li><a href="#">DTP</a></li>
+               
+                
+            </div>
+            <div class="col-md-3">
+                <h3>DTP</h3>
+                <li><a href="#">Adobe Frame Mark</a></li>
+                <li><a href="#">Adobe Photoshope</a></li>
+                <li><a href="#">Adobe PageMark</a></li>
+                <li><a href="#">Adobe Indesing</a></li>
+                <li><a href="#">Adobe lllustrator</a></li>
+                
+               
+                
+            </div>
+            <div class="col-md-3">
+                <h3>COMPANY JOIN</h3>
+                <li><a href="#"><img src="images/Microsoft-logo_rgb_c-gray.png" width="120px"></a></li>
+                <li><a href="#"><img src="images/Google-PNG-Background-Image.png" width="120px"></a></li>
+                <li><a href="#"><img src="images/Android-Logo-2014.png" width="120px"></a></li>
+                
+               
+                
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

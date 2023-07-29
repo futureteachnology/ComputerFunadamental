@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: emoji;
+}
+
+/* ---color pro---*/
+.color{
+    display:inline-block;
+   
+
+}
+
+.color li{
+    display:inline-block;
+    margin-left:20px;
+}
+ #a{
+    background-color:yellow;
+    color:yellow;
+    border-radius:50px;
+}
+#b{
+    background-color:gold;
+    color:gold;
+    border-radius:50px;
+}
+#c{
+    background-color:#f9ca24;
+    color:#f9ca24;
+    border-radius:50px;
+}
+#d{
+    background-color:#f2f2f2;
+    color:#f2f2f2;
+    border-radius:50px;
+}
+#e{
+    background-color:#EA2027;
+    color:#EA2027;
+    border-radius:50px;
+}
+.section{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.section h2.section-head{
+    color:#000;
+    text-align:center;
+    margin-bottom:40px;
+}
+.section h2.section-head::after{
+    background-color:#c0392b;
+    content:'';
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+#header{
+    background-color:#e74c3c;
+    color:#fff;
+}
+#logo{
+    font-size:2rem;
+}
+#menu{
+    float:1;
+    width:100%;
+    text-align:right;
+   
+}
+#menu li{
+    display:inline-block;
+    list-style:none;
+    padding:10px;
+}
+#menu li a{
+    text-decoration:none;
+    color:white;
+    padding:15px 10px;
+}
+#menu li a:hover{
+    background-color:#c0392b;
+}
+#banner{
+    background:url(images/banner-2.jpg)no-repeat 0 0;
+    background-size:cover;
+    height:100%;
+    
+}
+.banner-title{
+    padding-top:2rem;
+}
+.title{
+  
+    padding:10px;
+    margin:0;
+    padding-left:55px;
+    color:white;
+}
+.banner-title p.lead{
+    color:white;
+    padding:10px;
+}
+.section-head{
+    text-align:center;
+}
+.service-box i{
+    text-align:center;
+}
+.service-box i.fa{
+    color:#c0392b;
+    font-size:70px;
+    margin-bottom:15px;
+    margin-left:80px;
+}
+.section-head  h3{
+    text-align:center;
+    color:#ED4C67;
+}
+.testimonials {
+    background:url(images/testimonials.jpg) no-repeat 0 0;
+    color:white;
+    background-size:cover;
+    padding:50px 0;
+    position: relative;
+    
+    
+}
+.testimonials h2.section-head{
+    color:white;
+}
+.testimonials img{
+    clip-path: circle(50%);
+    border:1px solid red;
+    border-radius:50%;
+}
+.Project-link{
+    margin:10px 20px;
+    font-size:42px;
+
+}
+.Project-link a{
+    text-decoration:none;
+    color:#555;
+    text-align:center;
+    cursor: pointer;
+
+}
+.Project-link a::after{
+    
+}
+.footer{
+    background-color:black;
+}
+.footer h3{
+    color:white;
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+}
+.footer li{
+    text-align:center;
+    list-style:none;
+
+}
+.footer li a{
+    text-decoration:none;
+    color:#C4E538;
+}
+.footer i{
+    color:green;
+    font-size:30px;
+    padding:10px;
+    color:white;
+    background-color:red;
+    border-radius:50px;
+    margin-top:10px;   
+    margin-bottom:10px;
+}
+/* ------- foundmetal ---*/
+.text{
+    padding:40px;
+
+}
+.text h4{
+    text-align:center;
+}
+.text li{
+    list-style:none;
+    color:blue;
+    font-size:20px;
+}
+.other-computer-example {
+    display:flex;
+    overflow:scroll;
+    margin-left:10PX;
+}
+
+.other-computer-example::-webkit-scrollbar{
+    display:none;
+}
+.other-computer-example p{
+    padding:20px;
+    color:red;
+
+}
+table{
+    border:1px solid red;
+}
+th,td,tr{
+    border:1px solid red;
+    padding:10px;
+    background-color:blue;
+    color:white;
+}
+
+/* ----End --------*/
+
